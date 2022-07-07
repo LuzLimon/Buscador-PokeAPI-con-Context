@@ -1,0 +1,24 @@
+.Nav-item {
+  background-color: transparent;
+  border-bottom: 3pt solid transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: normal;
+  min-width: 90px;
+}
+
+.Nav-item:hover {
+  opacity: 0.9;
+}
+
+.Nav-item-selected {
+  background-color:#f99eed;
+
+}
+
+.Nav-item-vertical {
+  border-bottom: none;
+  border-right: 3pt solid transparent;
+  min-height: 50px;
+}
