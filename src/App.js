@@ -1,31 +1,30 @@
 import React, { useState } from 'react';
-import Main from './Components/Main';
-import Search from './Components/Search';
 import './Components/style.css'
-import { viewsEnum } from './utils/constants';
-import Header from './Components/Header/Header';
+import  Navbar  from './Components/Header/Navbar';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import $ from 'jquery';
+// import Popper from 'popper.js';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
 function App() {
-  const [view, setView] = useState(viewsEnum.BUSCADOR);
+  // const [view, setView] = useState(viewsEnum.BUSCADOR);
 
-  const handleNavigation = (newView) => {
-    setView(newView);
-  }
+  // const handleNavigation = (newView) => {
+  //   setView(newView);
+  // }
 
-  let content = null;
+  // let content = null;
 
-  switch (view) {
-    case viewsEnum.POKEMONES:
-      content = <Main />;
-      break;
-    case viewsEnum.BUSCADOR:
-    default:
-      content = <Search />;
-  }
+  // switch (view) {
+  //   case viewsEnum.POKEMONES:
+  //     content = <Main />;
+  //     break;
+  //   case viewsEnum.BUSCADOR:
+  //   default:
+  //     content = <Search />;
+  // }
   return (
     <div>
-    <Header view={view} onNav={handleNavigation} />
-
-    {content}
+      <Navbar/>
     </div>
   );
 }

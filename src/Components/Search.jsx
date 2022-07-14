@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Header/Navbar";
 
 class Search extends React.Component{
   
@@ -41,6 +42,8 @@ class Search extends React.Component{
 
 render() {
         return (
+        <div>
+          <Navbar/>
         <div class="ContainerBus">
         <div className="card text-center">
           <div className="card-header">
@@ -64,6 +67,7 @@ render() {
         <img src={this.state.img} alt="Front"/>   
         <img src={this.state.img2} alt="Back"/>
           </div>
+        </div>
         </div>
         </div>
         );

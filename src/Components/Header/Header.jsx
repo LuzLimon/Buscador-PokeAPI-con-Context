@@ -3,7 +3,6 @@ import NavItem from '../NavItem/NavItem';
 import { viewsEnum } from '../../utils/constants';
 import './Header.css';
 
-
 const items = [
   { title: 'Pokemones', id: viewsEnum.POKEMONES },
   { title: 'Buscador', id: viewsEnum.BUSCADOR },
@@ -30,5 +29,4 @@ const Header = (props) => {
     </header>
   );
 };
-
 export default Header;

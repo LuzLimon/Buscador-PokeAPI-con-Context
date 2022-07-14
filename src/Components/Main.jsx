@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import Pokeinfo from "./Pokeinfo";
 import axios from "axios";
+import Navbar from "./Header/Navbar";
 import { useState } from "react";
 import { useEffect } from "react";
 const Main=()=>{
@@ -35,10 +36,11 @@ const Main=()=>{
     },[url])
     return(
         <>
+        <div>
+            <Navbar/>
             <div className="container">
                 <div className="left-content">
                     <Card pokemon={pokeData} loading={loading} infoPokemon={poke=>setPokeDex(poke)}/>
-                    
                     <div className="btn-group">
                         {  prevUrl && <button onClick={()=>{
                             setPokeData([])
@@ -56,6 +58,7 @@ const Main=()=>{
                    <Pokeinfo data={pokeDex}/>
                 </div>
             </div>
+        </div>
         </>
     )
 }

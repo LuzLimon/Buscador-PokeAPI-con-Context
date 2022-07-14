@@ -1,9 +1,12 @@
 .Header {
-  background-color: #1c1b1b;
+  background-color: #a09696;
   display: flex;
   height: 90px;
 }
 
+.container-fluid {
+  display: flex;
+}
 
 h2{
   color: #420655;
