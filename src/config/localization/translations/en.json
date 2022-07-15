@@ -7,5 +7,10 @@
   "busButton": "Search",
   "about": "About",
   "back": "Back Page",
-  "next": "Next Page"
+  "next": "Next Page",
+  "fondo": "Design",
+  "contexttitle": "React Context Customizable Background",
+  "dark": "Dark Theme",
+  "pink": "Vaporwave Theme",
+  "Light": "Light Theme"
 }

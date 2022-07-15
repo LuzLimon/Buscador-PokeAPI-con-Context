@@ -32,6 +32,9 @@ export const Navbar = () => {
                     <li className="nav-item">
                     <Link className="nav-link" to='/190902'>{t("about")}</Link>
                     </li>
+                    <li className="nav-item">
+                    <Link className="nav-link" to='/diseno'>{t("fondo")}</Link>
+                    </li>
                 </ul>
                 </div>
                 <button onClick={()=> 

@@ -7,5 +7,10 @@
   "busButton": "Buscar",
   "about": "Acerca de",
   "back": "Pagina Anterior",
-  "next": "Pagina Siguiente"
+  "next": "Pagina Siguiente",
+  "fondo": "Diseño",
+  "contexttitle": "React Context Fondo Personalizable",
+  "dark": "Tema Oscuro",
+  "pink": "Tema Rosa",
+  "Light": "Tema Claro"
 }
