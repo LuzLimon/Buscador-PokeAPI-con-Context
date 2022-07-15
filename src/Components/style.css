@@ -12,7 +12,26 @@ body{
     margin: auto;
     padding-top: 100px;
     display: flex;
+    justify-content: center;
 }
+/* CLASE USADA PARA BUSCADOR Y ABOUT */
+.ContainerBus{
+    margin-top: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .about{
+    margin-top: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
 .left-content,.right-content{
     flex-basis: 50%;
 }
@@ -20,6 +39,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
     grid-gap:2rem;
+    
 }
 .card{
     width: 300px;
@@ -89,3 +109,40 @@ body{
     border-radius: 8px;
 }
 
+/* .ContainerBus {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} */
+
+.card text-center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card-header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card-body{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

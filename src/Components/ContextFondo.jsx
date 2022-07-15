@@ -74,7 +74,9 @@ export default function Fond() {
   return (
     <div>
       <Navbar/>
-    <div className="App">
+    <div className="ContainerBus">
+    <div className="card text-center">
+     <div className="card-header">
       <h1>{t("contexttitle")}</h1>
       <ThemeContext.Provider
         value={{ theme: currentTheme, updateTheme: setCurrentTheme }}
@@ -90,6 +92,8 @@ export default function Fond() {
         <MyButton>{t("Light")}</MyButton>
         <hr />
       </ThemeContext.Provider>
+    </div>
+    </div>
     </div>
     </div>
   );

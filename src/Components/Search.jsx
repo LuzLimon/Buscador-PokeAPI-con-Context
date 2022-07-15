@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Header/Navbar";
 
+
 class Search extends React.Component{
   
   constructor(props) {
