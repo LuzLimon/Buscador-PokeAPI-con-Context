@@ -1,4 +1,11 @@
 {
   "pokemones": "List",
-  "buscador": "Search"
+  "buscador": "Search",
+  "uni": "TECHNOLOGIC UNIVERSITY OF AGUASCALIENTES",
+  "busTitle": "Pokemon API Finder",
+  "busLabel": "Search Pokemon",
+  "busButton": "Search",
+  "about": "About",
+  "back": "Back Page",
+  "next": "Next Page"
 }

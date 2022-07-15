@@ -64,8 +64,8 @@ render() {
           
         </form>
         <span>{this.state.name}</span>
-        <img src={this.state.img} alt="Front"/>   
-        <img src={this.state.img2} alt="Back"/>
+        <img src={this.state.img} alt=""/>   
+        <img src={this.state.img2} alt=""/>
           </div>
         </div>
         </div>

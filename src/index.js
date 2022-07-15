@@ -20,8 +20,8 @@ root.render(
   <I18nextProvider i18n={i18n}>
   <Router>
       <Routes>
-          <Route path='/' element={<Navigate replace to="/pokemones"/>} />
-          <Route path='pokemones' element={<Main/>}/>
+          <Route path='/' element={<Navigate replace to="/pokemons"/>} />
+          <Route path='pokemons' element={<Main/>}/>
           <Route path='buscador' element={<Search/>}/>
           <Route path='190902' element={<Info/>}/>
       </Routes>

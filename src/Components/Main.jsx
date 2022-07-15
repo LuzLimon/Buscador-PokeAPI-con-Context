@@ -5,7 +5,13 @@ import axios from "axios";
 import Navbar from "./Header/Navbar";
 import { useState } from "react";
 import { useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 const Main=()=>{
+    const { i18n, t } = useTranslation();
+    function changeLaguage(language) {
+    i18n.changeLanguage(language);
+    }
+
     const [pokeData,setPokeData]=useState([]);
     const [loading,setLoading]=useState(true);
     const [url,setUrl]=useState("https://pokeapi.co/api/v2/pokemon?limit=10")
@@ -45,12 +51,12 @@ const Main=()=>{
                         {  prevUrl && <button onClick={()=>{
                             setPokeData([])
                            setUrl(prevUrl) 
-                        }}>Pagina Anterior</button>}
+                        }}>{t("back")}</button>}
 
                         { nextUrl && <button onClick={()=>{
                             setPokeData([])
                             setUrl(nextUrl)
-                        }}>Pagina Siguiente</button>}
+                        }}>{t("next")}</button>}
 
                     </div>
                 </div>
