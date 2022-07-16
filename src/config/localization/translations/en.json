@@ -12,5 +12,8 @@
   "contexttitle": "React Context Customizable Background",
   "dark": "Dark Theme",
   "pink": "Vaporwave Theme",
-  "Light": "Light Theme"
+  "Light": "Light Theme",
+  "logtitle": "Login User",
+  "login": "login",
+  "logout": "logout"
 }

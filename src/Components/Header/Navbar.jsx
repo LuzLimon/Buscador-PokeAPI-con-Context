@@ -4,6 +4,8 @@ import './Header.css';
 import { changeLanguage } from 'i18next';
 import { useTranslation } from 'react-i18next';
 import imgpoke from '../../img/Pokemon.png'
+import MyComponent from './contextLog';
+import StoreProvider from '../store/StoreProvider';
 
 
 export const Navbar = () => {
@@ -37,6 +39,9 @@ export const Navbar = () => {
                     </li>
                 </ul>
                 </div>
+                <StoreProvider>
+                <MyComponent/>
+                </StoreProvider>
                 <button onClick={()=> 
                     { changeLanguage("en") }}>
                         en

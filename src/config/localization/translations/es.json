@@ -12,5 +12,8 @@
   "contexttitle": "React Context Fondo Personalizable",
   "dark": "Tema Oscuro",
   "pink": "Tema Rosa",
-  "Light": "Tema Claro"
+  "Light": "Tema Claro",
+  "logtitle": "Login Usuario",
+  "login": "Entrar",
+  "logout": "Cerrar Sesion"
 }

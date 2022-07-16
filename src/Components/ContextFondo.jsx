@@ -41,29 +41,12 @@ class MyButton extends Component {
     const onClick = this.props.handleClick || updateLightTheme;
 
     return <button onClick={onClick} style={style} {...this.props} />;
+    
   }
 }
 
 MyButton.contextType = ThemeContext;
 
-const MyNewButton = (props) => {
-  const { theme, updateTheme } = useContext(ThemeContext);
-
-  const style = {
-    backgroundColor: theme.background,
-    color: theme.color,
-    border: "1px solid",
-    borderRadius: 5
-  };
-
-  const updateLightTheme = () => {
-    updateTheme(themes.light);
-  };
-
-  const onClick = props.handleClick || updateLightTheme;
-
-  return <button onClick={onClick} {...props} style={style} />;
-};
 
 export default function Fond() {
   const [currentTheme, setCurrentTheme] = useState(themes.light);
